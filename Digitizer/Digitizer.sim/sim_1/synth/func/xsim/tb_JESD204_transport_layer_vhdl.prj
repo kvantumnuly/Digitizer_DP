@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"tb_JESD204_transport_layer_func_synth.vhd" \
+"../../../../../Digitizer.srcs/sources_1/new/JESD204_transport_layer.vhd" \
+"../../../../../Digitizer.srcs/sim_1/new/tb_transpor_layer.vhd" \
+
+# Do not sort compile order
+nosort

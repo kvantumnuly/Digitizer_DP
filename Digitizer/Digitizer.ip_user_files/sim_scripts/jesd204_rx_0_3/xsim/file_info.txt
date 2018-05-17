@@ -1,0 +1,2 @@
+jesd204_rx_0_sim_netlist.vhdl,vhdl,xil_defaultlib,../../../../Digitizer.srcs/sources_1/ip/jesd204_rx_0_3/jesd204_rx_0_sim_netlist.vhdl,
+glbl.v,Verilog,xil_defaultlib,glbl.v

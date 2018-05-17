@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl2008 xil_defaultlib  \
+"../../../../Digitizer.srcs/sources_1/new/BRAM_trig.vhd" \
+"../../../../Digitizer.srcs/sources_1/new/FSM_bram.vhd" \
+"../../../../Digitizer.srcs/sim_1/new/tb_BRAM_trig.vhd" \
+
+# Do not sort compile order
+nosort

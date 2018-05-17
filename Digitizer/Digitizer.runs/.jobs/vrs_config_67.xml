@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="bd_1ed2_mac_0_synth_1" LaunchDir="C:/Digitizer/Digitizer.runs/bd_1ed2_mac_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mb_subsystem_axi_ethernet_0_0_synth_1" LaunchDir="C:/Digitizer/Digitizer.runs/mb_subsystem_axi_ethernet_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="bd_1ed2_mac_0_synth_1"/>
+	</Run>
+	<Run Id="mb_subsystem_axi_smc_0_synth_1" LaunchDir="C:/Digitizer/Digitizer.runs/mb_subsystem_axi_smc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mb_subsystem_axi_bram_ctrl_0_bram_0_synth_1" LaunchDir="C:/Digitizer/Digitizer.runs/mb_subsystem_axi_bram_ctrl_0_bram_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

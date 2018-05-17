@@ -1,0 +1,11 @@
+vhdl xil_defaultlib  \
+"../../../../Digitizer.srcs/sources_1/ip/jesd204_phy_0_1/jesd204_phy_0_sim_netlist.vhdl" \
+"../../../../Digitizer.srcs/sources_1/ip/jesd204_phy_0_1/ip_0/jesd204_phy_0_gt/example_design/jesd204_phy_0_gt_tx_startup_fsm.vhd" \
+"../../../../Digitizer.srcs/sources_1/ip/jesd204_phy_0_1/ip_0/jesd204_phy_0_gt/example_design/jesd204_phy_0_gt_rx_startup_fsm.vhd" \
+"../../../../Digitizer.srcs/sources_1/ip/jesd204_phy_0_1/ip_0/jesd204_phy_0_gt_init.vhd" \
+"../../../../Digitizer.srcs/sources_1/ip/jesd204_phy_0_1/ip_0/jesd204_phy_0_gt_gt.vhd" \
+"../../../../Digitizer.srcs/sources_1/ip/jesd204_phy_0_1/ip_0/jesd204_phy_0_gt_multi_gt.vhd" \
+"../../../../Digitizer.srcs/sources_1/ip/jesd204_phy_0_1/ip_0/jesd204_phy_0_gt/example_design/jesd204_phy_0_gt_sync_block.vhd" \
+"../../../../Digitizer.srcs/sources_1/ip/jesd204_phy_0_1/ip_0/jesd204_phy_0_gt.vhd" \
+
+nosort

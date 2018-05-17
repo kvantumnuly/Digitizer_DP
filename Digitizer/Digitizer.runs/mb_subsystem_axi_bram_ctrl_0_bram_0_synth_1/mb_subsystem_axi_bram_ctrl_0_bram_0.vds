@@ -1,0 +1,59 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Tue May  8 16:56:54 2018
+# Process ID: 14296
+# Current directory: C:/Digitizer_ladeni/Digitizer.runs/mb_subsystem_axi_bram_ctrl_0_bram_0_synth_1
+# Command line: vivado.exe -log mb_subsystem_axi_bram_ctrl_0_bram_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb_subsystem_axi_bram_ctrl_0_bram_0.tcl
+# Log file: C:/Digitizer_ladeni/Digitizer.runs/mb_subsystem_axi_bram_ctrl_0_bram_0_synth_1/mb_subsystem_axi_bram_ctrl_0_bram_0.vds
+# Journal file: C:/Digitizer_ladeni/Digitizer.runs/mb_subsystem_axi_bram_ctrl_0_bram_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source mb_subsystem_axi_bram_ctrl_0_bram_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 271.012 ; gain = 33.414
+config_ip_cache: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 304.102 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:25 ; elapsed = 00:00:40 . Memory (MB): peak = 411.117 ; gain = 99.301
+INFO: [Synth 8-638] synthesizing module 'mb_subsystem_axi_bram_ctrl_0_bram_0' [c:/Digitizer_ladeni/Digitizer.srcs/sources_1/bd/mb_subsystem/ip/mb_subsystem_axi_bram_ctrl_0_bram_0/synth/mb_subsystem_axi_bram_ctrl_0_bram_0.vhd:78]
+INFO: [Synth 8-256] done synthesizing module 'mb_subsystem_axi_bram_ctrl_0_bram_0' (11#1) [c:/Digitizer_ladeni/Digitizer.srcs/sources_1/bd/mb_subsystem/ip/mb_subsystem_axi_bram_ctrl_0_bram_0/synth/mb_subsystem_axi_bram_ctrl_0_bram_0.vhd:78]
+Finished RTL Elaboration : Time (s): cpu = 00:28:40 ; elapsed = 00:33:01 . Memory (MB): peak = 1611.340 ; gain = 1299.523
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:28:45 ; elapsed = 00:33:06 . Memory (MB): peak = 1611.340 ; gain = 1299.523
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.504 . Memory (MB): peak = 1611.340 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:29:41 ; elapsed = 00:34:05 . Memory (MB): peak = 1611.340 ; gain = 1299.523
+Finished Loading Part and Timing Information : Time (s): cpu = 00:29:41 ; elapsed = 00:34:05 . Memory (MB): peak = 1611.340 ; gain = 1299.523
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:29:41 ; elapsed = 00:34:05 . Memory (MB): peak = 1611.340 ; gain = 1299.523
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:30:14 ; elapsed = 00:34:40 . Memory (MB): peak = 1611.340 ; gain = 1299.523
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:30:50 ; elapsed = 00:35:23 . Memory (MB): peak = 1611.340 ; gain = 1299.523
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:31:21 ; elapsed = 00:35:59 . Memory (MB): peak = 1611.340 ; gain = 1299.523
+Finished Timing Optimization : Time (s): cpu = 00:31:28 ; elapsed = 00:36:07 . Memory (MB): peak = 1611.340 ; gain = 1299.523
+Finished Technology Mapping : Time (s): cpu = 00:31:36 ; elapsed = 00:36:17 . Memory (MB): peak = 1611.340 ; gain = 1299.523
+Finished IO Insertion : Time (s): cpu = 00:31:40 ; elapsed = 00:36:21 . Memory (MB): peak = 1611.340 ; gain = 1299.523
+Finished Renaming Generated Instances : Time (s): cpu = 00:31:40 ; elapsed = 00:36:21 . Memory (MB): peak = 1611.340 ; gain = 1299.523
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:31:45 ; elapsed = 00:36:26 . Memory (MB): peak = 1611.340 ; gain = 1299.523
+Finished Renaming Generated Ports : Time (s): cpu = 00:31:46 ; elapsed = 00:36:26 . Memory (MB): peak = 1611.340 ; gain = 1299.523
+Finished Handling Custom Attributes : Time (s): cpu = 00:31:46 ; elapsed = 00:36:27 . Memory (MB): peak = 1611.340 ; gain = 1299.523
+Finished Renaming Generated Nets : Time (s): cpu = 00:31:46 ; elapsed = 00:36:27 . Memory (MB): peak = 1611.340 ; gain = 1299.523
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |LUT2       |   768|
+|2     |LUT3       |   259|
+|3     |LUT4       |   512|
+|4     |LUT5       |   256|
+|5     |LUT6       |  1126|
+|6     |MUXF7      |   512|
+|7     |RAMB36E1   |     8|
+|8     |RAMB36E1_1 |   248|
+|9     |SRL16E     |   512|
+|10    |FDRE       |  2822|
+|11    |FDSE       |   256|
++------+-----------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:31:46 ; elapsed = 00:36:27 . Memory (MB): peak = 1611.340 ; gain = 1299.523
+synth_design: Time (s): cpu = 00:32:06 ; elapsed = 00:36:49 . Memory (MB): peak = 1611.340 ; gain = 1307.238
+write_checkpoint: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 1611.340 ; gain = 0.000
+write_verilog: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1611.340 ; gain = 0.000
+write_vhdl: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1611.340 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 1611.340 ; gain = 0.000
+write_vhdl: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1611.340 ; gain = 0.000
